@@ -1,0 +1,171 @@
+> data/gametext/scenario_win.krot
+Zafer!
+Bu görevi tamamladın!
+Menu için escape'e bas
+<
+> data/gametext/scenario_lose.krot
+Bozgun!
+Bu görevi tamamlayamadın.
+Menu için escape'e bas
+<
+> data/gametext/scenario_choose_scenario.krot
+Bir Görev
+Seç
+<
+> data/gametext/main_menu.krot
+KRONN'A
+Hoşgeldin
+<
+> data/gametext/high_scores.krot
+Yüksek Skorlar
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+<
+> data/gametext/game_over_endless_mode.krot
+Skorun: 
+Oyun bitti
+Menu için escape'e bas
+<
+> data/gametext/endless_in_game.krot
+Skor: 
+Gücün Bitmesine: 
+<
+> data/gametext/endless_choose_plane.krot
+Uçağını
+Seç
+<
+> data/gametext/scenario_description.krbtn
+Oyna!
+1
+END
+0
+<
+> data/gametext/main_menu.krbtn
+Görev Oyna
+2
+Sınırsız Oyna
+6
+Yüksek Skorlar
+9
+Çıkış
+10
+END
+0
+<
+> data/scenarios/scenarios.krscn
+//CHEMICAL
+Kimyasal Devrim
+Arkandaki uçağa güvenli bir yere
+kadar eşlik etmelisin. Bu uçak
+uzay jetlerinin çalışma sistemini
+kökünden değiştirecek kimyasal bir
+madde taşıyor. Zengin bir iş
+adamı bu keşiften başka kimsenin
+haberi olmasını istemiyor, böylece
+bütün jetler bu maddeyle çalışmaya
+başlayınca bu maddenin tek satıcısı
+kendisi olacak. Bu görevde başarısız
+olursan füze alma hakkını kaybedeceksin.
+END
+9 3
+0 10 h 580
+0 11 w10 -20
+0 11 10 -20
+60 11 w60 -20
+60 11 60 -20
+120 12 h -40
+120 13 h -40
+160 11 w100 -20
+160 11 100 -20
+240 12 h -40
+240 13 h -40
+270 14 w200 -20
+270 14 200 -20
+330 11 w100 -20
+330 11 100 -20
+360 14 160 -20
+360 14 w160 -20
+360 12 w60 -20
+360 13 60 -20
+420 11 h -20
+420 11 w100 -20
+420 11 100 -20
+500 14 w180 -20
+500 14 180 -20
+500 11 h -20
+560 11 w110 -20
+560 11 110 -20
+650 12 w80 -30
+650 13 80 -30
+710 3 h -20
+-1 -1 -1 -1
+//OUT_OF_AMMO
+Cephanesiz
+Bir iş adamının yasa dışı silah satın
+almasına yardım ettiğin için füze alman
+yasaklandı. Yardım ettiğin iş adamı da
+amacının bilinmesini istemiyor, bu yüzden
+seni öldürmesi için paralı askerler
+gönderdi. Kaçıp en kısa sürede
+güvenli bir yere ulaşmalısın.
+END
+1 3
+0 4 w10 -20
+0 4 340 -20
+60 3 100 -20
+-1 -1 -1 -1
+//OBLITERATOR
+Felaket Senaryosu
+Bir gezegeni yok edecek kadar güçlü bir
+bomba taşımakta olan bir uçağı yok etmekle
+görevlendirildin. Bu uçak senin doğduğun
+gezegeni hedef alıyor. Gezegeninin hükümeti
+senden bu uçağı hedefine varmadan
+durdurmanı istiyor.
+END
+1 3
+0 4 w10 -20
+0 4 340 -20
+60 3 100 -20
+-1 -1 -1 -1
+//TEAM_MATE
+Takım Arkadaşı
+Küçük bir çete, mürettebatından birini
+kaçırdı. Arkadaşını rehin tutan çetenin
+lideriyle savaşmalısın ama ona ulaşabilmek
+için önce onun adamlarını yenmek
+zorundasın. Adamları ise liderlerini
+canlarıyla korumaya hazır.
+END
+1 3
+0 4 w10 -20
+0 4 340 -20
+60 3 100 -20
+-1 -1 -1 -1
+//DOUBLE_AGENT
+Casus
+Bir suç şebekesi eskiden onlarla, daha
+sonra da bir gezegenin hükümetiyle
+çalıştığın için seni bir hain olarak
+görüyorlar ve öldürmeye karar veriyorlar.
+Liderleri geriye kimse kalmayana kadar
+bütün adamlarını peşinden göndermeye
+kararlı. Herkesi yenebilirsen seninle
+kendisi dövüşecek.
+END
+1 3
+0 4 w10 -20
+0 4 340 -20
+60 3 100 -20
+-1 -1 -1 -1
+END_FILE
+<
+> END

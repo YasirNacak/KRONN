@@ -1,0 +1,175 @@
+> data/gametext/scenario_win.krot
+You Win!
+You've completed this mission!
+Press escape for menu
+<
+> data/gametext/scenario_lose.krot
+You Lose!
+You didn't complete this mission.
+Press escape for menu
+<
+> data/gametext/scenario_choose_scenario.krot
+Choose a
+Scenario
+<
+> data/gametext/main_menu.krot
+Welcome to
+KRONN
+<
+> data/gametext/high_scores.krot
+High Scores
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+<
+> data/gametext/game_over_endless_mode.krot
+Your Score: 
+Game Over
+Press escape for menu
+<
+> data/gametext/endless_in_game.krot
+Score: 
+Power ends in: 
+<
+> data/gametext/endless_choose_plane.krot
+Choose your
+Aircraft
+<
+> data/gametext/scenario_description.krbtn
+Play!
+1
+END
+0
+<
+> data/gametext/main_menu.krbtn
+Play Scenario
+2
+Play Endless
+6
+High Scores
+9
+Exit
+10
+END
+0
+<
+> data/scenarios/scenarios.krscn
+//REVOLUTIONARY
+Revolutionary
+You are to escort a plane to safety.
+This plane carries a very important
+chemical matter that can revolutionize
+the way space jets work. A rich
+businessman wants to keep this discovery
+all to himself, so when all jets become
+compatible with only this matter, he will
+be the only one selling it. If you fail at
+this mission, you will lose your
+right to buy missiles.
+END
+9 3
+0 10 h 580
+0 11 w10 -20
+0 11 10 -20
+60 11 w60 -20
+60 11 60 -20
+120 12 h -40
+120 13 h -40
+160 11 w100 -20
+160 11 100 -20
+240 12 h -40
+240 13 h -40
+270 14 w200 -20
+270 14 200 -20
+330 11 w100 -20
+330 11 100 -20
+360 14 160 -20
+360 14 w160 -20
+360 12 w60 -20
+360 13 60 -20
+420 11 h -20
+420 11 w100 -20
+420 11 100 -20
+500 14 w180 -20
+500 14 180 -20
+500 11 h -20
+560 11 w110 -20
+560 11 110 -20
+650 12 w80 -30
+650 13 80 -30
+710 3 h -20
+-1 -1 -1 -1
+//OUT_OF_AMMO
+Out of Ammo
+You helped a businessman in buying
+illegal weaponry, now you are banned from
+buying missiles. The businessman you worked
+for does not want his objectives to be
+known so you will be attacked by the
+mercenaries he employed. You need to
+escape and get to safety
+as soon as possible. 
+END
+1 3
+0 4 w10 -20
+0 4 340 -20
+60 3 100 -20
+-1 -1 -1 -1
+//OBLITERATOR
+Obliterator
+You are to destroy a plane that
+carries a bomb strong enough to
+obliterate a planet. It is sent
+to your home planet and your government
+wants you to save them. You need to
+find and destroy this jet before
+it gets to its destination.
+END
+1 3
+0 4 w10 -20
+0 4 340 -20
+60 3 100 -20
+-1 -1 -1 -1
+//TEAMMATE
+Teammate
+A small gang kidnapped one of your crew.
+You are to fight the leader of this gang
+to take him back, but to get to the leader
+that keeps your friend as a hostage, you
+need to fight his underlings first and
+they are determined to protect
+their leader with their lives.
+END
+1 3
+0 4 w10 -20
+0 4 340 -20
+60 3 100 -20
+-1 -1 -1 -1
+//DOUBLE_AGENT
+Double Agent
+You are to fight a crime ring that
+saw you as a potential danger because
+you worked with the government as a
+mercenary even though you also worked
+for this group. They think of you as a
+traitor so they want to kill you.
+Their leader is determined to keep
+sending his men after you until
+there is no one left. After that
+he will fight you himself. 
+END
+1 3
+0 4 w10 -20
+0 4 340 -20
+60 3 100 -20
+-1 -1 -1 -1
+END_FILE
+<
+> END
